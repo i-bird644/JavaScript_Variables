@@ -4,13 +4,13 @@ console.log(
 );
 
 // Exercise 1
-const firstName = undefined;
 let lastName;
 var age;
 
+const firstName = "David";
+
 
 // Exercise 2
-firstName = "David";
 lastName = "Micheal";
 age = 12;
 
@@ -18,6 +18,7 @@ age = 12;
 let language = "JavaScript";
 let createdYear = 1999;
 let isCaseSensitive = true;
+console.log(language, createdYear, isCaseSensitive);
 
 // Exercise 4
 let price = 19.99;
@@ -26,6 +27,8 @@ let salePercentage = 15;
 let stock = 0;
 let inStock = false;
 let selectedSize = "M";
+console.log(price, isOnSale, salePercentage,stock, inStock, selectedSize);
+
 
 //Exercise 5
 let title = "Name of the wind";
@@ -33,3 +36,4 @@ let author = "Patrick Ruthfuss";
 let pageCount = 722;
 let bookmark = 456;
 let hasRead = true;
+console.log(title, author, pageCount, bookmark, hasRead);
